@@ -1,0 +1,71 @@
+.showBook.data-v-16b38e46 {
+  display: flex;
+  justify-content: flex-start;
+  height: 440rpx;
+  background-color: #fff;
+  padding: 40rpx;
+}
+.showBook-curImg.data-v-16b38e46 {
+  width: 240rpx;
+  height: 300rpx;
+  margin-right: 40rpx;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.showBook .titleText.data-v-16b38e46 {
+  font-size: 46rpx;
+}
+.comments.data-v-16b38e46 {
+  display: flex;
+  flex-direction: column;
+  height: 1000rpx;
+  justify-content: space-evenly;
+  padding: 0 40rpx;
+  background-color: #eee;
+  border-radius: 10rpx;
+  margin-bottom: 120rpx;
+}
+.comments-title.data-v-16b38e46 {
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.comments .commentsBox.data-v-16b38e46 {
+  width: 100%;
+  height: 180rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+.comments .commentsBox-Reviewer.data-v-16b38e46 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background-color: pink;
+  margin-right: 30rpx;
+}
+.read.data-v-16b38e46 {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140rpx;
+  width: 100%;
+  background-color: #fff;
+}
+.read .btn.data-v-16b38e46 {
+  width: 340rpx;
+  border-radius: 25rpx;
+  font-size: 30rpx;
+  height: 80rpx;
+  font-weight: 600;
+}
+.read .default.data-v-16b38e46 {
+  color: #000;
+}
+.read .blue.data-v-16b38e46 {
+  color: #fff;
+  background-color: #008af9;
+}

@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Home/Home",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/BookShelf/BookShelf"
+		},
+		{
+			"path": "pages/personal/personal"
+		},
+		{
+			"path": "pages/BookView/BookView",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 3000
+				}
+			}
+		},
+		{
+			"path": "pages/BookRead/BookRead",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 3000
+				}
+			}
+		}
+	],
+
+	"tabBar": {
+		"color": "#717882",
+		"backgroundColor": "#fff",
+		"selectedColor": "#459df0",
+		"iconWidth": "40rpx",
+		"list": [{
+				"pagePath": "pages/Home/Home",
+				"text": "首页",
+				"iconPath": "static/tabBar/read.png",
+				"selectedIconPath": "static/tabBar/read-active.png"
+			},
+			{
+				"pagePath": "pages/BookShelf/BookShelf",
+				"text": "书架",
+				"iconPath": "static/tabBar/bookshelf.png",
+				"selectedIconPath": "static/tabBar/bookshelf-active.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我",
+				"iconPath": "/static/tabBar/personal.png",
+				"selectedIconPath": "static/tabBar/personal-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTitleText": "BookView",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTextStyle": "black",
+		"app-plus": {
+			"scrollIndicator": "none"
+		}
+	},
+	"uniIdRouter": {}
+}

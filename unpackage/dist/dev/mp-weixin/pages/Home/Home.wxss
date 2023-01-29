@@ -1,0 +1,4 @@
+.data-v-2bc86734 .swiper-kind .uni-swiper-slides {
+  top: 50% !important;
+  transform: translateY(-50%);
+}

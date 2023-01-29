@@ -1,0 +1,10 @@
+"use strict";
+var api_home = require("./home.js");
+const getBookDataApi = api_home.getBookData;
+const getImgDataApi = api_home.getImgData;
+const getSoaringListDataApi = api_home.getSoaringListData;
+const getBookContentApi = api_home.getBookContent;
+exports.getBookContentApi = getBookContentApi;
+exports.getBookDataApi = getBookDataApi;
+exports.getImgDataApi = getImgDataApi;
+exports.getSoaringListDataApi = getSoaringListDataApi;

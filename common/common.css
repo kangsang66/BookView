@@ -1,0 +1,43 @@
+.text {
+	font-weight: 600;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
+.SoaringList {
+	height: auto;
+}
+
+.button {
+	font-size: 32rpx;
+	border-radius: 15rpx;
+	background-color: #f3f4f6;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10rpx;
+}
+
+.List {
+	padding: 0 45rpx;
+}
+
+.swiper-box-little {
+	width: 200rpx;
+	height: 260rpx;
+	background-color: pink;
+}
+
+.active-text {
+	font-weight: 600;
+	color: #1689ef;
+}
+
+.description {
+	width: 200rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 28rpx
+}

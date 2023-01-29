@@ -1,0 +1,32 @@
+.imgbox.data-v-3789298a {
+  height: 260rpx;
+}
+.recommendBook.data-v-3789298a {
+  width: 100%;
+  height: 800rpx;
+  background-color: #fff;
+  padding: 0 45rpx;
+}
+.recommendBook-text.data-v-3789298a {
+  font-weight: 600;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.recommendBook-button.data-v-3789298a {
+  font-size: 36rpx;
+  border-radius: 15rpx;
+  background-color: #f3f4f6;
+}
+.recommendBook-mainbox.data-v-3789298a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.recommendBook-mainbox-box.data-v-3789298a {
+  width: 200rpx;
+  height: 260rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/BookShelf/BookShelf",
+    "pages/personal/personal",
+    "pages/BookView/BookView",
+    "pages/BookRead/BookRead"
+  ],
+  "window": {
+    "navigationBarTitleText": "BookView",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#717882",
+    "backgroundColor": "#fff",
+    "selectedColor": "#459df0",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "static/tabBar/read.png",
+        "selectedIconPath": "static/tabBar/read-active.png"
+      },
+      {
+        "pagePath": "pages/BookShelf/BookShelf",
+        "text": "书架",
+        "iconPath": "static/tabBar/bookshelf.png",
+        "selectedIconPath": "static/tabBar/bookshelf-active.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我",
+        "iconPath": "/static/tabBar/personal.png",
+        "selectedIconPath": "static/tabBar/personal-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

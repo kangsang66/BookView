@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search": "../../components/Home/Home_Search",
+    "swiper-kind": "../../components/Home/Home_Swiper",
+    "book": "../../components/Home/Home_Book",
+    "recommend-book": "../../components/Home/Home_RecommendBook",
+    "list": "../../components/Home/Home_List"
+  }
+}

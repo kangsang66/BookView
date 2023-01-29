@@ -1,0 +1,1 @@
+<view class="search data-v-7f8e859a"><uni-search-bar wx:if="{{a}}" class="uni-mt-10 data-v-7f8e859a" u-i="7f8e859a-0" bind:__l="__l" u-p="{{a}}"/><view class="search-right data-v-7f8e859a"><text class="search-right-row data-v-7f8e859a">|</text><text class="search-right-text data-v-7f8e859a">书城</text></view></view>
